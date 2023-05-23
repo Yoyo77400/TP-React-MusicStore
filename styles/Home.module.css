@@ -1,0 +1,8 @@
+.articlesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+    background-size: cover;
+}

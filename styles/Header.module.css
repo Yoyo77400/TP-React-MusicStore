@@ -1,0 +1,99 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('/images/background.png');
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+.topHeaderContainer{
+    margin: 20px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.bottomHeaderContainer{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nameProductsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.productTitle{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.title{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 15px;
+}
+
+.fontIcon{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.fontIcon:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.homeDiscover{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    margin: 20px;
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.homeDiscover:hover{
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+
+.homeBuy{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+    border: 1px white solid;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.homeBuy:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    opacity: 0.3;
+}

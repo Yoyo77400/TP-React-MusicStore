@@ -5,3 +5,44 @@
   padding : 0;
   box-sizing : border-box;
 }
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+span{
+  color: #fff;
+}
+
+a{
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  opacity: 0.4;
+}
+
+.discover{
+  width: 150px;
+  height: 45px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 1s;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.discover:hover{
+  background-color: #fff;
+  color: rgb(121, 121, 121);
+  border: 1px solid #000
+}

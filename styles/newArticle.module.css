@@ -1,0 +1,28 @@
+.newArticleContainer{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    margin: 40px;
+}
+
+.soundbar{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.titleContainer{
+    text-align: center;
+}
+
+.newArticlesLauch{
+    font-size: 12px;
+}
+
+.newArticlesTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
