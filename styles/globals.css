@@ -27,6 +27,27 @@ a:hover{
   opacity: 0.4;
 }
 
+input{
+  height: 30px;
+  width: 40%;
+  margin: 5px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: lightgray;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px rgb(58, 58, 58) dashed;
+}
+textarea{
+  margin: 5px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: lightgray;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px rgb(58, 58, 58) dashed;
+}
+
 .discover{
   width: 150px;
   height: 45px;

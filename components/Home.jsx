@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import NewArticle from './NewArticle';
 import Article from './Article';
 
+
 export default function Home() {
 
   const articlesData = [
@@ -37,7 +38,6 @@ export default function Home() {
   return <>
     <NewArticle title = 'DIONE SOUNDBAR' />
     <div className={styles.articlesContainer}>{Articles}</div>
-
   </>;
 
 }
